@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=wminfo
+Comment=Dockapp that runs shell-scripts and displays it's output
+Comment[pl]=Applet uruchamiający skrypty shella i wyświetlający ich wynik
+Exec=wminfo
+Terminal=false
+Type=Application
+Categories=Applet;
+NotShowIn=GNOME;KDE;
+# vi: encoding=utf-8
