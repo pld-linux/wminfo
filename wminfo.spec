@@ -2,7 +2,7 @@ Summary:	Dockapp that runs shell-scripts and displays it's output
 Summary(pl):	Aplet uruchamiaj±cy skrypy shella i wy¶wietlaj±cy ich wynik
 Name:		wminfo
 Version:	1.51
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://kling.mine.nu/files/%{name}-%{version}.tar.gz
@@ -30,7 +30,8 @@ do wy¶wietlania logów i tym podobnych.
 %build
 cd wminfo
 %{__make} \
-	FLAGS="%{rpmcflags}"
+	FLAGS="%{rpmcflags}" \
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
