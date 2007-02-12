@@ -1,5 +1,5 @@
 Summary:	Dockapp that runs shell-scripts and displays it's output
-Summary(pl):	Aplet uruchamiaj±cy skrypty shella i wy¶wietlaj±cy ich wynik
+Summary(pl.UTF-8):   Aplet uruchamiajÄ…cy skrypty shella i wyÅ›wietlajÄ…cy ich wynik
 Name:		wminfo
 Version:	1.51
 Release:	3
@@ -18,11 +18,11 @@ it's output and displays it five rows at a time. You can scroll rows
 up and down and scroll the rows horizontally. Useful for tailing
 log-files etc.
 
-%description -l pl
-Aplet uruchamiaj±cy (zdefiniowany przez u¿ytkownika) skrypt shella,
-przechwytuj±cy jego wynik i wy¶wietlaj±cy go jednorazowo w piêciu rzêdach.
-Mo¿esz przewijaæ je do góry i na dó³ a tak¿e horyzontalnie. Przydatny
-do wy¶wietlania logów i tym podobnych.
+%description -l pl.UTF-8
+Aplet uruchamiajÄ…cy (zdefiniowany przez uÅ¼ytkownika) skrypt shella,
+przechwytujÄ…cy jego wynik i wyÅ›wietlajÄ…cy go jednorazowo w piÄ™ciu rzÄ™dach.
+MoÅ¼esz przewijaÄ‡ je do gÃ³ry i na dÃ³Å‚ a takÅ¼e horyzontalnie. Przydatny
+do wyÅ›wietlania logÃ³w i tym podobnych.
 
 %prep
 %setup -q -n %{name}
