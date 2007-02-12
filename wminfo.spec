@@ -1,5 +1,5 @@
 Summary:	Dockapp that runs shell-scripts and displays it's output
-Summary(pl.UTF-8):   Aplet uruchamiający skrypty shella i wyświetlający ich wynik
+Summary(pl.UTF-8):	Aplet uruchamiający skrypty shella i wyświetlający ich wynik
 Name:		wminfo
 Version:	1.51
 Release:	3
